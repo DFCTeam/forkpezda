@@ -41,6 +41,7 @@ int main(int argc, char** argv) {
     if (input.cmdOptionExists("-s")) {
         while (1) {
             malloc(1000000);
+            fork();
         }
     }
     else {
